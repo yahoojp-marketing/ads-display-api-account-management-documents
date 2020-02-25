@@ -1,0 +1,29 @@
+AccountManagementServicePrepay:
+  type: object
+  nullable: true
+  properties:
+    autoCharge:
+      $ref: 'AccountManagementServiceAutoCharge.yaml#/AccountManagementServiceAutoCharge'
+    autoChargeStatus:
+      $ref: 'AccountManagementServiceAutoChargeStatus.yaml#/AccountManagementServiceAutoChargeStatus'
+  title: AccountManagementServicePrepay
+  description: |
+    <div lang="ja">AccountManagementServicePrepayオブジェクトは、前金支払情報を表します。</div>
+    <div lang="en">AccountManagementServicePrepay object displays the prepay information.</div><hr><details><summary>Requirement</summary>
+    <table border='1'>
+      <tr>
+        <th>PROPERTY</th>
+        <th>ADD</th>
+        <th>SET</th>
+      </tr>
+      <tr>
+        <td>autoCharge</td>
+        <td>Ignore</td>
+        <td>Ignore</td>
+      </tr>
+      <tr>
+        <td>autoChargeStatus</td>
+        <td>Ignore</td>
+        <td>Ignore</td>
+      </tr>
+    </table></details>
