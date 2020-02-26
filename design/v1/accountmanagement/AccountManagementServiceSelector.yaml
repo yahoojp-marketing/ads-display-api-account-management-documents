@@ -57,4 +57,4 @@ AccountManagementServiceSelector:
   title: AccountManagementServiceSelector
   description: |
     <div lang="ja">AccountManagementServiceSelectorオブジェクトは、選択するアカウントを表します。</div>
-    <div lang="en">Explains which accounts to return.</div>
+    <div lang="en">AccountManagementServiceSelector object explains which accounts to return.</div>
