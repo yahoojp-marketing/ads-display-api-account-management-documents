@@ -3,7 +3,7 @@
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <title>API Reference - Yahoo! Ads</title>
+    <title>API Reference - Yahoo! JAPAN Ads</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
@@ -16,7 +16,7 @@
     <div class="masthead">
       <p class="masthead__title">
         <a href="https://marketing.yahoo.co.jp/" lang="ja" class="masthead__trigger" >Yahoo!広告</a>
-        <a href="https://global-marketing.yahoo.co.jp/" lang="en" class="masthead__trigger_en" >Yahoo! Ads</a>
+        <a href="https://global-marketing.yahoo.co.jp/" lang="en" class="masthead__trigger_en" >Yahoo! JAPAN Ads</a>
       </p>
         <ul class="masthead__list">
           <li class="masthead__item masthead__item--login">
@@ -107,7 +107,7 @@
     window.addEventListener('DOMContentLoaded', function () {
       if(location.search.indexOf('lang=en') != -1){
         lang = "en"
-        document.title = 'API Reference - Yahoo! Ads';
+        document.title = 'API Reference - Yahoo! JAPAN Ads';
         $('#langType').html('* [lang="ja"]{display:none;}')
       }else{
         lang = "ja"
@@ -208,7 +208,7 @@
         var observer_menu = new MutationObserver(function () {
           observer_swagger.disconnect()
           if(lang == "en"){
-            $('.title').text("Yahoo! Ads Display Ads API Reference v" + version)
+            $('.title').text("Yahoo! JAPAN Ads Display Ads API Reference v" + version)
           }else{
             $('.title').text("Yahoo!広告 ディスプレイ広告 API リファレンス v" + version)
           }
